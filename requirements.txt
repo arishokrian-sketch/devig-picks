@@ -1,0 +1,6 @@
+# No external dependencies — devig_model.py uses only the Python 3.9+ standard library
+# (urllib for API calls, json, argparse, dataclasses, math).
+#
+# If you extend this with pandas-based backtesting or plotting, add:
+# pandas>=2.0
+# matplotlib>=3.7
