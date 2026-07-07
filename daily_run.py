@@ -58,7 +58,7 @@ def gather_all_edges() -> list:
         raise SystemExit("[fatal] ODDS_API_KEY not set — cannot fetch live odds.")
 
     all_edges = []
-    for sport in ["mlb]:
+    for sport in ["mlb"]:
         elo = build_elo(sport)
         raw = fetch_odds(sport, api_key)
         events = convert_odds_api_payload(raw)
